@@ -32,6 +32,22 @@ Warehouse staff use stock records to track quantities, suppliers provide uniform
 - **Payments and inventory:** The original diagram models order to payment and product to stock as one-to-one. A supplier can supply many products. Multiple payment attempts and inventory across multiple locations were outside the project scope.
 - **Customer interactions:** An account can submit multiple support inquiries and leave multiple reviews. Each review is also linked to the product it describes.
 
+## Worked example: how the records connect
+
+This fictional example adapts the sample-record slides. A customer orders two shirts and one skirt. The order header is stored once, while each product gets its own line item.
+
+| Entity | Example ID | Links and details |
+|---|---|---|
+| `Account` | A-100 | Customer account |
+| `Order` | O-200 | References A-100 through `Account_ID` |
+| `Product` | P-301 | School shirt |
+| `Product` | P-302 | School skirt |
+| `Order_Item` | I-401 | References O-200 and P-301; quantity 2 |
+| `Order_Item` | I-402 | References O-200 and P-302; quantity 1 |
+| `Payment` | PAY-501 | References O-200 through `Order_ID`; status Paid |
+
+In the original ER diagram, rectangles represent entities, ovals represent attributes, and diamonds name relationships. Underlined attributes identify keys; the `1` and `M` labels show how many records can participate on each side of a relationship.
+
 ## Normalization review
 
 The team reviewed the design against first, second, and third normal forms, considering whether fields hold single values and whether non-key attributes depend on the right keys. Keeping line items separate from the order header avoids storing a list of products in one order field or repeating order-level details on every line item.
