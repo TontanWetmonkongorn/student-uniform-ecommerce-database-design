@@ -4,19 +4,7 @@ Academic team project for Database Systems and Applications. We designed a relat
 
 ## Entity–relationship diagram
 
-```mermaid
-erDiagram
-    ACCOUNT ||..o{ ORDER : places
-    ORDER ||..|{ ORDER_ITEM : contains
-    PRODUCT ||..o{ ORDER_ITEM : appears_in
-    ORDER ||..o| PAYMENT : has
-    SUPPLIER ||..o{ PRODUCT : supplies
-    PRODUCT ||..o| STOCK : tracked_by
-    SUPPLIER ||..o{ STOCK : replenishes
-    ACCOUNT ||..o{ FEEDBACK : writes
-    PRODUCT ||..o{ FEEDBACK : receives
-    ACCOUNT ||..o{ SUPPORT : submits
-```
+![Entity–relationship diagram for the student uniform store](erd.svg)
 
 `ORDER_ITEM` links orders and products. Each line item records the quantity of a product in an order. The portfolio diagram assumes an order may be awaiting payment and a product may not yet have a stock record. Multiple payment attempts and inventory across multiple locations are outside the project scope.
 
