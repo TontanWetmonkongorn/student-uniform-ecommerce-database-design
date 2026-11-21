@@ -1,0 +1,141 @@
+<svg width="615pt" height="266pt"
+ viewBox="0.00 0.00 614.50 266.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 248)">
+<title>ERD</title>
+<polygon fill="#ffffff" stroke="transparent" points="-18,18 -18,-248 596.5,-248 596.5,18 -18,18"/>
+<!-- ACCOUNT -->
+<g id="node1" class="node">
+<title>ACCOUNT</title>
+<path fill="#eaf2fa" stroke="#456781" d="M192.5,-230C192.5,-230 124.5,-230 124.5,-230 118.5,-230 112.5,-224 112.5,-218 112.5,-218 112.5,-206 112.5,-206 112.5,-200 118.5,-194 124.5,-194 124.5,-194 192.5,-194 192.5,-194 198.5,-194 204.5,-200 204.5,-206 204.5,-206 204.5,-218 204.5,-218 204.5,-224 198.5,-230 192.5,-230"/>
+<text text-anchor="middle" x="158.5" y="-208.3" font-family="sans-serif" font-size="14.00">ACCOUNT</text>
+</g>
+<!-- ORDER -->
+<g id="node3" class="node">
+<title>ORDER</title>
+<path fill="#eaf2fa" stroke="#456781" d="M183.5,-133C183.5,-133 133.5,-133 133.5,-133 127.5,-133 121.5,-127 121.5,-121 121.5,-121 121.5,-109 121.5,-109 121.5,-103 127.5,-97 133.5,-97 133.5,-97 183.5,-97 183.5,-97 189.5,-97 195.5,-103 195.5,-109 195.5,-109 195.5,-121 195.5,-121 195.5,-127 189.5,-133 183.5,-133"/>
+<text text-anchor="middle" x="158.5" y="-111.3" font-family="sans-serif" font-size="14.00">ORDER</text>
+</g>
+<!-- ACCOUNT&#45;&gt;ORDER -->
+<g id="edge1" class="edge">
+<title>ACCOUNT&#45;&gt;ORDER</title>
+<path fill="none" stroke="#456781" d="M158.5,-193.58C158.5,-176.43 158.5,-150.42 158.5,-133.31"/>
+<text text-anchor="middle" x="173" y="-161" font-family="sans-serif" font-size="10.00" fill="#263d54">places</text>
+<text text-anchor="middle" x="166.11" y="-147.13" font-family="sans-serif" font-size="10.00" fill="#263d54">0..*</text>
+<text text-anchor="middle" x="150.89" y="-174.76" font-family="sans-serif" font-size="10.00" fill="#263d54">1</text>
+</g>
+<!-- SUPPORT -->
+<g id="node4" class="node">
+<title>SUPPORT</title>
+<path fill="#eaf2fa" stroke="#456781" d="M77,-133C77,-133 12,-133 12,-133 6,-133 0,-127 0,-121 0,-121 0,-109 0,-109 0,-103 6,-97 12,-97 12,-97 77,-97 77,-97 83,-97 89,-103 89,-109 89,-109 89,-121 89,-121 89,-127 83,-133 77,-133"/>
+<text text-anchor="middle" x="44.5" y="-111.3" font-family="sans-serif" font-size="14.00">SUPPORT</text>
+</g>
+<!-- ACCOUNT&#45;&gt;SUPPORT -->
+<g id="edge2" class="edge">
+<title>ACCOUNT&#45;&gt;SUPPORT</title>
+<path fill="none" stroke="#456781" d="M137.86,-193.8C117.19,-176.58 85.6,-150.25 64.99,-133.08"/>
+<text text-anchor="middle" x="124" y="-161" font-family="sans-serif" font-size="10.00" fill="#263d54">submits</text>
+<text text-anchor="middle" x="82.39" y="-135.18" font-family="sans-serif" font-size="10.00" fill="#263d54">0..*</text>
+<text text-anchor="middle" x="120.45" y="-186.7" font-family="sans-serif" font-size="10.00" fill="#263d54">1</text>
+</g>
+<!-- FEEDBACK -->
+<g id="node8" class="node">
+<title>FEEDBACK</title>
+<path fill="#eaf2fa" stroke="#456781" d="M435.5,-36C435.5,-36 363.5,-36 363.5,-36 357.5,-36 351.5,-30 351.5,-24 351.5,-24 351.5,-12 351.5,-12 351.5,-6 357.5,0 363.5,0 363.5,0 435.5,0 435.5,0 441.5,0 447.5,-6 447.5,-12 447.5,-12 447.5,-24 447.5,-24 447.5,-30 441.5,-36 435.5,-36"/>
+<text text-anchor="middle" x="399.5" y="-14.3" font-family="sans-serif" font-size="14.00">FEEDBACK</text>
+</g>
+<!-- ACCOUNT&#45;&gt;FEEDBACK -->
+<g id="edge3" class="edge">
+<title>ACCOUNT&#45;&gt;FEEDBACK</title>
+<path fill="none" stroke="#456781" d="M174.72,-193.87C207.81,-159.16 282.46,-82.04 312.5,-61 326.24,-51.38 342.52,-42.86 357.26,-36.06"/>
+<text text-anchor="middle" x="285" y="-112.5" font-family="sans-serif" font-size="10.00" fill="#263d54">writes</text>
+<text text-anchor="middle" x="345.71" y="-47.37" font-family="sans-serif" font-size="10.00" fill="#263d54">0..*</text>
+<text text-anchor="middle" x="180.5" y="-174.32" font-family="sans-serif" font-size="10.00" fill="#263d54">1</text>
+</g>
+<!-- SUPPLIER -->
+<g id="node2" class="node">
+<title>SUPPLIER</title>
+<path fill="#eaf2fa" stroke="#456781" d="M551.5,-230C551.5,-230 485.5,-230 485.5,-230 479.5,-230 473.5,-224 473.5,-218 473.5,-218 473.5,-206 473.5,-206 473.5,-200 479.5,-194 485.5,-194 485.5,-194 551.5,-194 551.5,-194 557.5,-194 563.5,-200 563.5,-206 563.5,-206 563.5,-218 563.5,-218 563.5,-224 557.5,-230 551.5,-230"/>
+<text text-anchor="middle" x="518.5" y="-208.3" font-family="sans-serif" font-size="14.00">SUPPLIER</text>
+</g>
+<!-- PRODUCT -->
+<g id="node5" class="node">
+<title>PRODUCT</title>
+<path fill="#eaf2fa" stroke="#456781" d="M452,-133C452,-133 383,-133 383,-133 377,-133 371,-127 371,-121 371,-121 371,-109 371,-109 371,-103 377,-97 383,-97 383,-97 452,-97 452,-97 458,-97 464,-103 464,-109 464,-109 464,-121 464,-121 464,-127 458,-133 452,-133"/>
+<text text-anchor="middle" x="417.5" y="-111.3" font-family="sans-serif" font-size="14.00">PRODUCT</text>
+</g>
+<!-- SUPPLIER&#45;&gt;PRODUCT -->
+<g id="edge9" class="edge">
+<title>SUPPLIER&#45;&gt;PRODUCT</title>
+<path fill="none" stroke="#456781" d="M499.98,-193.58C481.75,-176.43 454.09,-150.42 435.91,-133.31"/>
+<text text-anchor="middle" x="489.5" y="-161" font-family="sans-serif" font-size="10.00" fill="#263d54">supplies</text>
+<text text-anchor="middle" x="453" y="-136.45" font-family="sans-serif" font-size="10.00" fill="#263d54">0..*</text>
+<text text-anchor="middle" x="482.88" y="-185.44" font-family="sans-serif" font-size="10.00" fill="#263d54">1</text>
+</g>
+<!-- STOCK -->
+<g id="node9" class="node">
+<title>STOCK</title>
+<path fill="#eaf2fa" stroke="#456781" d="M554,-36C554,-36 507,-36 507,-36 501,-36 495,-30 495,-24 495,-24 495,-12 495,-12 495,-6 501,0 507,0 507,0 554,0 554,0 560,0 566,-6 566,-12 566,-12 566,-24 566,-24 566,-30 560,-36 554,-36"/>
+<text text-anchor="middle" x="530.5" y="-14.3" font-family="sans-serif" font-size="14.00">STOCK</text>
+</g>
+<!-- SUPPLIER&#45;&gt;STOCK -->
+<g id="edge10" class="edge">
+<title>SUPPLIER&#45;&gt;STOCK</title>
+<path fill="none" stroke="#456781" d="M519.56,-193.96C521.84,-157.53 527.16,-72.4 529.44,-36"/>
+<text text-anchor="middle" x="551.5" y="-112.5" font-family="sans-serif" font-size="10.00" fill="#263d54">replenishes</text>
+<text text-anchor="middle" x="536.01" y="-50.26" font-family="sans-serif" font-size="10.00" fill="#263d54">0..*</text>
+<text text-anchor="middle" x="512.99" y="-174.7" font-family="sans-serif" font-size="10.00" fill="#263d54">1</text>
+</g>
+<!-- PAYMENT -->
+<g id="node6" class="node">
+<title>PAYMENT</title>
+<path fill="#eaf2fa" stroke="#456781" d="M163,-36C163,-36 98,-36 98,-36 92,-36 86,-30 86,-24 86,-24 86,-12 86,-12 86,-6 92,0 98,0 98,0 163,0 163,0 169,0 175,-6 175,-12 175,-12 175,-24 175,-24 175,-30 169,-36 163,-36"/>
+<text text-anchor="middle" x="130.5" y="-14.3" font-family="sans-serif" font-size="14.00">PAYMENT</text>
+</g>
+<!-- ORDER&#45;&gt;PAYMENT -->
+<g id="edge5" class="edge">
+<title>ORDER&#45;&gt;PAYMENT</title>
+<path fill="none" stroke="#456781" d="M146.97,-96.73C142.64,-89.4 138.13,-80.58 135.5,-72 131.92,-60.34 130.71,-46.61 130.37,-36.05"/>
+<text text-anchor="middle" x="143.5" y="-64" font-family="sans-serif" font-size="10.00" fill="#263d54">has</text>
+<text text-anchor="middle" x="138.62" y="-49.55" font-family="sans-serif" font-size="10.00" fill="#263d54">0..1</text>
+<text text-anchor="middle" x="132.19" y="-83.94" font-family="sans-serif" font-size="10.00" fill="#263d54">1</text>
+</g>
+<!-- ORDER_ITEM -->
+<g id="node7" class="node">
+<title>ORDER_ITEM</title>
+<path fill="#eaf2fa" stroke="#456781" d="M307.5,-36C307.5,-36 219.5,-36 219.5,-36 213.5,-36 207.5,-30 207.5,-24 207.5,-24 207.5,-12 207.5,-12 207.5,-6 213.5,0 219.5,0 219.5,0 307.5,0 307.5,0 313.5,0 319.5,-6 319.5,-12 319.5,-12 319.5,-24 319.5,-24 319.5,-30 313.5,-36 307.5,-36"/>
+<text text-anchor="middle" x="263.5" y="-14.3" font-family="sans-serif" font-size="14.00">ORDER_ITEM</text>
+</g>
+<!-- ORDER&#45;&gt;ORDER_ITEM -->
+<g id="edge4" class="edge">
+<title>ORDER&#45;&gt;ORDER_ITEM</title>
+<path fill="none" stroke="#456781" d="M167.96,-96.89C174.66,-85.79 184.41,-71.48 195.5,-61 205.58,-51.47 218.17,-42.97 229.75,-36.16"/>
+<text text-anchor="middle" x="215" y="-64" font-family="sans-serif" font-size="10.00" fill="#263d54">contains</text>
+<text text-anchor="middle" x="219.65" y="-48.56" font-family="sans-serif" font-size="10.00" fill="#263d54">1..*</text>
+<text text-anchor="middle" x="170.01" y="-76.51" font-family="sans-serif" font-size="10.00" fill="#263d54">1</text>
+</g>
+<!-- PRODUCT&#45;&gt;ORDER_ITEM -->
+<g id="edge6" class="edge">
+<title>PRODUCT&#45;&gt;ORDER_ITEM</title>
+<path fill="none" stroke="#456781" d="M382.26,-96.83C368.11,-89.59 351.79,-80.81 337.5,-72 319.48,-60.89 300.05,-46.89 285.62,-36.07"/>
+<text text-anchor="middle" x="362" y="-64" font-family="sans-serif" font-size="10.00" fill="#263d54">appears in</text>
+<text text-anchor="middle" x="303.24" y="-37.22" font-family="sans-serif" font-size="10.00" fill="#263d54">0..*</text>
+<text text-anchor="middle" x="364.28" y="-93.63" font-family="sans-serif" font-size="10.00" fill="#263d54">1</text>
+</g>
+<!-- PRODUCT&#45;&gt;FEEDBACK -->
+<g id="edge7" class="edge">
+<title>PRODUCT&#45;&gt;FEEDBACK</title>
+<path fill="none" stroke="#456781" d="M406.59,-96.71C402.58,-89.38 398.52,-80.57 396.5,-72 393.75,-60.34 394.56,-46.85 396.03,-36.4"/>
+<text text-anchor="middle" x="416" y="-64" font-family="sans-serif" font-size="10.00" fill="#263d54">receives</text>
+<text text-anchor="middle" x="401.48" y="-51.06" font-family="sans-serif" font-size="10.00" fill="#263d54">0..*</text>
+<text text-anchor="middle" x="392.17" y="-83.43" font-family="sans-serif" font-size="10.00" fill="#263d54">1</text>
+</g>
+<!-- PRODUCT&#45;&gt;STOCK -->
+<g id="edge8" class="edge">
+<title>PRODUCT&#45;&gt;STOCK</title>
+<path fill="none" stroke="#456781" d="M434.26,-96.65C444.87,-85.97 459.08,-72.23 472.5,-61 482.89,-52.3 494.95,-43.4 505.37,-36.04"/>
+<text text-anchor="middle" x="497" y="-64" font-family="sans-serif" font-size="10.00" fill="#263d54">tracked by</text>
+<text text-anchor="middle" x="496.47" y="-49.19" font-family="sans-serif" font-size="10.00" fill="#263d54">0..1</text>
+<text text-anchor="middle" x="440.41" y="-77.23" font-family="sans-serif" font-size="10.00" fill="#263d54">1</text>
+</g>
+</g>
+</svg>
