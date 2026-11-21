@@ -4,8 +4,8 @@ Academic team project for Database Systems and Applications. We designed a relat
 
 ## Entity–relationship diagram
 
-![Entity–relationship diagram for the student uniform store](erd.svg)
+![Entity–relationship diagram for the student uniform store](student-uniform-erd.png)
 
-`ORDER_ITEM` links orders and products. Each line item records the quantity of a product in an order. The portfolio diagram assumes an order may be awaiting payment and a product may not yet have a stock record. Multiple payment attempts and inventory across multiple locations are outside the project scope.
+`ORDER_ITEM` links orders and products. Each line item records the quantity of a product in an order. The original diagram shows one-to-one relationships for orders and payments, and for products and stock records. Multiple payment attempts and inventory across multiple locations are outside the project scope.
 
 **Credit:** Based on the original Database Systems and Applications team project.
